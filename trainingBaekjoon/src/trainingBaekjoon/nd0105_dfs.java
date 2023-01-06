@@ -1,6 +1,6 @@
 package trainingBaekjoon;
 
-public class d0105_dfs {
+public class nd0105_dfs {
 	int[] numbers;
 	int target;
 	int answer;
@@ -16,7 +16,7 @@ public class d0105_dfs {
 	}
 	
 	public static void main(String[] args) {
-		
+		 
 
 	}
 
