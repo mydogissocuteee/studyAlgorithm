@@ -10,6 +10,11 @@ public class nd0106_1260 {
 	static int[][] graph;
 	static boolean[] checked; //확인 여부
 	
+	public static void dfs(int i) {
+		checked[i] = true;
+		
+	}
+	
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		nn = in.nextInt();
