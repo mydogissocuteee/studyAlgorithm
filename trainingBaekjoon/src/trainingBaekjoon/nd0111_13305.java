@@ -24,7 +24,8 @@ public class nd0111_13305 {
 		
 		else {
 			
-			for(int i = 0;i<nn-1;i++) {
+			for(int i = 0;i<nn;i++) {
+				
 				
 				
 			}
