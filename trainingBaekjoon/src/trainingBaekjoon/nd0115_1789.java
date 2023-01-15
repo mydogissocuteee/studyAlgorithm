@@ -7,15 +7,14 @@ public class nd0115_1789 {
 		
 		Scanner in = new Scanner(System.in);
 		
-		int s = in.nextInt();
-		int plus = 1;
-		int sum = 0;
+		long s = in.nextLong();
+		long plus = 1;
+		long sum = 0;
 		while(true) {
 			sum += plus;
 			if(sum>s) break;
 			plus ++;
 		}
-		
 		System.out.println(plus-1);
 		
 	}
