@@ -23,6 +23,7 @@ public class p {
 			String grade = privacies[i].split(" ")[1]; // privacies[i]의 등급
 			
 			
+			
 			// privacies[i]의 날짜
 			int pyear = Integer.parseInt(privacies[i].split(".")[0]);
 			int pmonth = Integer.parseInt(privacies[i].split(".")[1]);
