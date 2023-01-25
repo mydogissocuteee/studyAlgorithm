@@ -1,7 +1,13 @@
 package trainingBaekjoon;
 
 public class p {
-
+	public static void main(String[] args) {
+		String today = "2022.05.19";
+		String[] terms = {"A 6", "B 12", "C 3"};
+		String[] privacies = {"2021.05.02 A", "2021.07.01 B", "2022.02.19 C", "2022.02.20 C"};
+		solution(today, terms,privacies);
+		System.out.println("?");
+	}
 	public static int[] solution(String today, String[] terms, String[] privacies) {
 		// today 오늘 날짜
 		// terms 등급 별 기간
@@ -17,7 +23,7 @@ public class p {
 		// 오늘 날짜
 		int todays = thisyear*12*28 + thismonth*28 + thisday;
 		
-		// 오늘 날짜와 비교해서 지났는지 아닌지 결정 지났으면 answer에 추가
+		// 오늘 날짜와 비교해서 지났는지 아닌지 지났으면 answer에 추가
 		
 		for (int i = 0; i<privacies.length; i++) {
 			String grade = privacies[i].split(" ")[1]; // privacies[i]의 등급
@@ -43,16 +49,10 @@ public class p {
         	answer[i] = Integer.parseInt(answerString[i]);
         }
 		
-		
+		System.out.println("실행");
         return answer;
     }
 	
-	public static void main(String[] args) {
-		String today = "2022.05.19";
-		String[] terms = {"A 6", "B 12", "C 3"};
-		String[] privacies = {"2021.05.02 A", "2021.07.01 B", "2022.02.19 C", "2022.02.20 C"};
-		System.out.println(solution(today, terms,privacies));
-		System.out.println(today);
-	}
+	
 	
 }
