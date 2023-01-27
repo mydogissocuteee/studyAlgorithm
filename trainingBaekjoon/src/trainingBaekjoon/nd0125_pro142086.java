@@ -24,11 +24,10 @@ public class nd0125_pro142086 {
     	for(int i=0;i<s.length();i++) {
     		if(!indexMap.containsKey(s.substring(i,i+1))) { // 없으면
     			answer[i] = -1;
-    			indexMap.put(s.substring(i,i+1), i);
     		}else {
     			answer[i] = i-indexMap.get(s.substring(i,i+1));
-    			indexMap.put(s.substring(i,i+1), i);
     		}
+    		indexMap.put(s.substring(i,i+1), i); // 존재X라면 새로 등록, 존재한다면 수정
     	}
     	
         return answer;
