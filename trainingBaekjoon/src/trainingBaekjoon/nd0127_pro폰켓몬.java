@@ -3,6 +3,7 @@ package trainingBaekjoon;
 import java.util.HashSet;
 import java.util.Set;
 
+
 public class nd0127_pro폰켓몬 {
 	public static void main(String[] args) {
 		int[] sizes = {3,3,3,2,2,2};
