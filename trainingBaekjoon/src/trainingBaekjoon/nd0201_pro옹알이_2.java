@@ -19,7 +19,7 @@ public class nd0201_pro옹알이_2 {
         	str = str.replaceFirst("ye", "");
         	str = str.replaceFirst("woo", "");
         	str = str.replaceFirst("ma", "");
-        	if(str.length()==0) answer++;
+        	if(str.length()==0) answer++; 
         }
         
         return answer;
