@@ -2,6 +2,7 @@ package trainingBaekjoon;
 
 import java.util.ArrayList;
 
+
 public class nd0201_pro옹알이_2 {
 	public static void main(String[] args) {
 		String[] babbling = {"aya", "yee", "u", "maa"};
