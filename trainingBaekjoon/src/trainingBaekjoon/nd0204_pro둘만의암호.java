@@ -10,8 +10,10 @@ public class nd0204_pro둘만의암호 {
 	
 	public static String solution(String s, String skip, int index) {
         String answer = "";
-        char[] arr = s.toCharArray();
-        for(int i=0;i<s.length();i++) {
+        char[] StringArr = s.toCharArray();
+        char[] SkipArr = skip.toCharArray();
+        
+        for(int i=0;i<StringArr.length;i++) {
         	
         }
         
